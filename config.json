@@ -1,0 +1,16 @@
+{
+    "name": "NEOPIXEL",
+    "description": "Mục mở rộng hỗ trợ sử dụng led dây Neopixel",
+    "libs": [
+        "led_strip.py"
+    ],
+    "blocks": [
+        "definition.js"
+    ],
+    "toolbox": "toolbox.xml",
+    "languages": {
+        "en": "languages/en.js",
+        "vi": "languages/vi.js"
+    },
+    "poster": "poster.png"
+}
