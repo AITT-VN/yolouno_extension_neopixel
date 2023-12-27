@@ -1,8 +1,8 @@
 {
     "name": "NEOPIXEL",
-    "description": "Mục mở rộng hỗ trợ sử dụng led dây Neopixel",
+    "description": "Mục mở rộng của Yolo UNO sử dụng led dây Neopixel",
     "libs": [
-        "yolouno_led_strip.py"
+        "led_strip.py"
     ],
     "blocks": [
         "definition.js"
