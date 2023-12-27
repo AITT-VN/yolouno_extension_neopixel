@@ -190,7 +190,7 @@ Blockly.Blocks['neopixel_show_index_rgb_led'] = {
 Blockly.Python['yolouno_neopixel_setup'] = function (block) {
   var pin = block.getFieldValue('pin');
   var number_neo = Blockly.Python.valueToCode(block, 'neo', Blockly.Python.ORDER_ATOMIC);
-  Blockly.Python.definitions_['import_led_strip'] = 'from led_strip import *';
+  Blockly.Python.definitions_['import_led_strip'] = 'from yolouno_led_strip import *';
   Blockly.Python.definitions_['init_led_strip_' + pin] = 'strips = Led_Strip(' + pin + '_PIN, ' + number_neo + ')';
   // TODO: Assemble Python into code variable.
   var code = "";

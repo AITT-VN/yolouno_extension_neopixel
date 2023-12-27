@@ -2,7 +2,7 @@
     "name": "NEOPIXEL",
     "description": "Mục mở rộng hỗ trợ sử dụng led dây Neopixel",
     "libs": [
-        "led_strip.py"
+        "yolouno_led_strip.py"
     ],
     "blocks": [
         "definition.js"
